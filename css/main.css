@@ -1,0 +1,154 @@
+/** Global**/
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none; 
+}
+/**.//global **/
+/**header **/
+.header-holder{
+    height:16px;
+    width: 100%
+}
+.header-holder span img{
+ width: 13px;
+}
+.header-holder span:last-child{
+    float:right;
+}
+section{
+    display: flex;
+    width: 100%;
+}
+/**.//header **/
+/**Prva sekcija  **/
+.samsung {
+    width: 100%;
+    height: 210px;
+    background-image: url(../images/galaxys7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.samsung div{
+    width: 40%;
+    height: 25vh;
+    float: right;
+}
+.samsung h1{
+    color:rgb(3, 2, 104);
+    text-align: center;
+}
+.samsung div button{
+    background-color: #f0f8ff00;
+    color: rgb(3, 2, 104);
+    border: 1px solid rgb(3, 2, 104);
+    border-radius: 6px;
+    align-items: center;
+}
+/**.//Prva sekcija  **/
+/**Druga sekcija  **/
+.about-us{
+    width: 100%;
+    height: fit-content;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 10px;
+    align-content: center;
+}
+.about-us h1{
+    text-align: center;
+}
+.about-us p{
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 4px;
+    left: 25%;
+
+}
+/**.//Druga sekcija  **/
+/**Treca sekcija  **/
+.properties-holder{
+    width: 100%;
+    height: fit-content;
+    background-image: url(../images/about-us.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.properties{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60%;
+}
+.properties li{
+    text-align: center;
+    margin-left:-40%;
+    border: 1px solid  rgb(3, 2, 104);
+    background-color:  rgb(3, 2, 104);
+    height: fit-content;
+    font-size: 10px;
+    width:170px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    color: white;
+}
+/**.//Treca sekcija  **/
+/**.//Cetvrta sekcija  **/
+.gallery-products{
+    width: 100%;
+    display: inline-block;
+}
+.gallery-products h1{
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid  rgb(3, 2, 104); 
+    color: rgb(3, 2, 104);
+}
+.gallery-products .gallery-holder{
+    display: inline-block;
+    width: 24%;
+}
+.gallery-products .gallery-holder img{
+    width: 100%;
+}
+.gallery-products .gallery-holder h6{
+    margin: 0;
+    text-align: center;
+}
+/**.//Cetvrta sekcija  **/
+/**footer **/
+.footer{
+    width: 100%;
+    background-color: rgb(3, 2, 104);
+    color: white;
+    display: flex;
+    height: fit-content;
+}
+.footer ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 7px;
+}
+.footer div{
+    height: fit-content;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+.footer div iframe{
+    width: 100px;
+    height: 100px;
+}
+/**.//footer **/
+@media 
